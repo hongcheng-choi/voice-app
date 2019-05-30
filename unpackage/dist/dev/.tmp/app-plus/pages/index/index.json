@@ -1,0 +1,22 @@
+{
+  "titleNView": {
+    "type": "transparent",
+    "searchInput": {
+      "backgroundColor": "rgba(246,247,251,1)",
+      "borderRadius": "5px",
+      "placeholder": "请搜索您感兴趣的作品",
+      "disabled": true,
+      "placeholderColor": "#ABB1BC"
+    },
+    "buttons": [
+      {
+        "fontSrc": "/static/yticon.ttf",
+        "text": "",
+        "fontSize": "27",
+        "color": "#303133",
+        "background": "rgba(0,0,0,0)"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

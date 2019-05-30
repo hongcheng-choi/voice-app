@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/set/set",
+    "pages/userinfo/userinfo",
+    "pages/cart/cart",
+    "pages/public/login",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/order/order",
+    "pages/money/money",
+    "pages/order/createOrder",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/money/pay",
+    "pages/money/paySuccess",
+    "pages/notice/notice",
+    "pages/category/category",
+    "pages/product/list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/book/index.png",
+        "selectedIconPath": "static/book/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/book/book.png",
+        "selectedIconPath": "static/book/book-select.png",
+        "text": "书架"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/book/catalog.png",
+        "selectedIconPath": "static/book/catalog-select.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/book/mine.png",
+        "selectedIconPath": "static/book/mine-select.png",
+        "text": "账号"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "声工厂",
+  "compilerVersion": "1.9.9",
+  "usingComponents": {}
+}

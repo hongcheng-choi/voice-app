@@ -1,0 +1,1 @@
+<view class="container" bind:__l="__l"><block wx:if="{{!hasLogin||empty===true}}"><view class="empty">书架</view></block><block wx:else><view></view></block></view>
